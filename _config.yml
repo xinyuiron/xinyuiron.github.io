@@ -21,7 +21,7 @@ title                    : "Xinyu Wang"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Xinyu Wang"
-description              : "Welcome to my blog!"
+description              : ":smile: Welcome to this website!"
 url                      : "https://xinyuiron.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -115,16 +115,16 @@ analytics:
 author:
   name             : Xinyu Wang
   avatar           : "/assets/images/head.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Hi :wave:!, Here is Xinyu(鑫宇) Wang!\n Welcome to this website!"
   location         : "China, SH"
-  email            : "xinyu2001@sjtu.edu.cn"
+  # email          : "xinyu2001@sjtu.edu.cn"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "xinyu2001@sjtu.edu.cn"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://xinyuiron.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -133,7 +133,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github/xinyuiron"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -145,6 +145,10 @@ nav:
     link: /about/
   - name: "Blog"
     link: /blog/
+
+
+header:
+  navigation: true
 
 # Site Footer
 footer:
@@ -271,6 +275,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
