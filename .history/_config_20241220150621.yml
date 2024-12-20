@@ -137,6 +137,15 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
+nav:
+  - name: "Home"
+    link: /
+  - name: "About"
+    link: /about/
+  - name: "Blog"
+    link: /blog/
+
+
 header:
   navigation: true
 
@@ -161,6 +170,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+
 
 # Reading Files
 include:

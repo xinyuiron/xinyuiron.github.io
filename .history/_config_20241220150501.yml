@@ -118,6 +118,9 @@ author:
   bio              : "Hi :wave:!, Here is Xinyu(鑫宇) Wang!\n Welcome to this website!"
   location         : "SH, China" 
   links:
+    - label: "location"
+      icon: "fas fa-fw fa-map-marker-alt"
+      url: "https://google.com/maps"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "xinyu2001@sjtu.edu.cn"
@@ -136,6 +139,15 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+
+nav:
+  - name: "Home"
+    link: /
+  - name: "About"
+    link: /about/
+  - name: "Blog"
+    link: /blog/
+
 
 header:
   navigation: true
@@ -161,6 +173,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+
 
 # Reading Files
 include:

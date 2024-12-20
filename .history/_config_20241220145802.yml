@@ -116,7 +116,8 @@ author:
   name             : Xinyu Wang
   avatar           : "/assets/images/head.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hi :wave:!, Here is Xinyu(鑫宇) Wang!\n Welcome to this website!"
-  location         : "SH, China" 
+  location         : "China, SH"
+  # email          : "xinyu2001@sjtu.edu.cn"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -132,10 +133,19 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/xinyuiron"
+      url: "https://github.com/xinyuiron" https://github.com/xinyuiron
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+
+nav:
+  - name: "Home"
+    link: /
+  - name: "About"
+    link: /about/
+  - name: "Blog"
+    link: /blog/
+
 
 header:
   navigation: true
@@ -161,6 +171,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+
 
 # Reading Files
 include:
