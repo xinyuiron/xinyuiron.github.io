@@ -120,6 +120,7 @@
                         </div>
                     </div>
 
+                    <!-- <div class="archive" style="display: flex; justify-content: center; align-items: center; height: 400px; border: 2px solid #ccc;"> -->
                     <div class="archive">
                         <h1 id="page-title" class="page__title"></h1>
 
@@ -131,25 +132,32 @@
                         <header>
                             <h1>Hi <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="40" width="40"> Welcome to My Website!</h1>
                         </header>
-                        <main>
-                            <section>
-                            <h2>About Me</h2>
-                            <p>
-                                I am currently a second-year Ph.D student in 
-                                <a href="https://dmne.sjtu.edu.cn/dmne/" target="_blank">Department of Micro and Nano Electronics</a>,
-                                <a href="https://www.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University</a>
-                                advised by 
-                                <a href="https://english.seiee.sjtu.edu.cn/english/detail/2128_1165.htm" target="_blank">Prof. Weifeng He</a>.
-                            </p>
-                            <p>
-                                Previously, I received my bachelor's degree from 
-                                <a href="https://www.seu.edu.cn/" target="_blank">Southeast University</a> in 2023.
-                            </p>
-                            <p>
-                                My research interest lies in building energy-efficient architectures/circuits for edge AI applications.
-                            </p>
-                            </section>
-                        </main>
+                        <div class = "introduction", style="display: flex; justify-content: center; align-items: center;">
+                            <div class="content" style="flex: 1; padding-right: 10px;">
+                                <main>
+                                    <section>
+                                        <h2>About Me</h2>
+                                        <p>
+                                            I am currently a second-year Ph.D student in 
+                                            <a href="https://dmne.sjtu.edu.cn/dmne/" target="_blank">Department of Micro and Nano Electronics</a>,
+                                            <a href="https://www.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University</a>
+                                            advised by 
+                                            <a href="https://english.seiee.sjtu.edu.cn/english/detail/2128_1165.htm" target="_blank">Prof. Weifeng He</a>.
+                                        </p>
+                                        <p>
+                                            Previously, I received my bachelor's degree from 
+                                            <a href="https://www.seu.edu.cn/" target="_blank">Southeast University</a> in 2023.
+                                        </p>
+                                        <p>
+                                            My research interest lies in building energy-efficient architectures/circuits for edge AI applications.
+                                        </p>
+                                    </section>
+                                </main>
+                            </div>
+                            <div class="image" style="flex-shrink: 0; width: 200px;">
+                                <img align="center" src="/assets/images/xinyu.jpg" alt="Profile Image" style="width: 100%; height: auto;">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -157,20 +165,18 @@
 
     <!-- <h3 class="archive__subtitle">Recent posts</h3> -->
             <div class="entries-list"></div>
-
+            
             <div id="footer" class="page__footer">
                 <footer>
                 <!-- start custom footer snippets -->
-                <!-- end custom footer snippets -->
-                    <div class="page__footer-follow">
+                    <!-- <div class="page__footer-follow">
                         <ul class="social-icons">
                             <li><strong>Follow:</strong></li>
                             <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
                         </ul>
-                    </div>
-
+                    </div> -->
                     <div class="page__footer-copyright">&copy; 2024 <a href="https://xinyuiron.github.io">Xinyu Wang</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
-
+                <!-- end custom footer snippets -->
                 </footer>
             </div>
             <script src="/assets/js/main.min.js"></script>
