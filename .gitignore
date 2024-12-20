@@ -1,7 +1,7 @@
 # Vim
 *~
 *.sw[p_]
-
+.history
 # IntelliJ IDEA
 *.idea
 
